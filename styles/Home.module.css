@@ -1,16 +1,16 @@
-html,
-body,textarea,input {
+.html,
+.body,.textarea,.input {
   background-color: antiquewhite;
   font-family: 'Purisa';
   font-style: normal;
 }
 
-button{
+.button{
   font-family: 'Purisa';
   font-style: normal;
 }
 
-input{
+.input{
   background-color: transparent;
   border: 0 solid;
   font-size: 20px;
@@ -41,7 +41,7 @@ input{
   margin: 0.5rem;
 }
 
-a {
+.a {
   color: inherit;
   text-decoration: none;
 }

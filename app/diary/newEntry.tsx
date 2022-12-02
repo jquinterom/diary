@@ -39,6 +39,7 @@ export default function NewEntry() {
                     placeholder="Title"
                     value={title}
                     onChange={(e) => setTitle(e.target.value)}
+                    className={styles.input}
                 />
                 <div className={styles.paper_content}>
                     <textarea

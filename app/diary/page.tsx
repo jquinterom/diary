@@ -11,11 +11,11 @@ async function getEntries() {
 
 
 export default async function diary() {
-
     const entries = await getEntries();
+    
     return (
         <div className={styles.entries_container}>
-            <h1>Entries</h1>
+            <h1>Entries {entries?.length} </h1>
             <div className={styles.entries_part}>
                 {entries?.map((entry) => {
                     return <Note id={entry.id} title={entry.title} text={entry.text}/>;
